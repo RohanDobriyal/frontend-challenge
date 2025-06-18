@@ -4,20 +4,20 @@ A complete Notes application built with Svelte, TypeScript, and TailwindCSS feat
 
 ## Features
 
-✅ **Core CRUD Operations**
+**Core CRUD Operations**
 - Create new notes with title and content
 - Read/display all notes with pagination-like grid layout
 - Update existing notes through inline editing modal
 - Delete notes with confirmation dialog
 
-✅ **Enhanced User Experience**
-- 🔍 Real-time search functionality (searches both title and content)
-- 🌙 Dark mode toggle with system preference detection
-- 📱 Fully responsive design (mobile, tablet, desktop)
-- ⚡ Loading states and optimistic UI updates
-- 🎨 Modern, clean interface with smooth animations
+ **Enhanced User Experience**
+-  Real-time search functionality (searches both title and content)
+-  Dark mode toggle with system preference detection
+-  Fully responsive design (mobile, tablet, desktop)
+-  Loading states and optimistic UI updates
+-  Modern, clean interface with smooth animations
 
-✅ **Technical Implementation**
+**Technical Implementation**
 - Mock REST API simulation with realistic network delays
 - Centralized state management using Svelte stores
 - TypeScript for type safety
@@ -99,25 +99,25 @@ interface Note {
 
 ## Key Features Explained
 
-### 🔍 Search Functionality
+###  Search Functionality
 - Real-time search across note titles and content
 - Case-insensitive matching
 - Instant filtering without API calls
 - Clear search results indication
 
-### 🌙 Dark Mode
+###  Dark Mode
 - System preference detection on first visit
 - Manual toggle with persistent storage
 - Smooth transitions between themes
 - Consistent styling across all components
 
-### 📱 Responsive Design
+###  Responsive Design
 - Mobile-first approach
 - Responsive grid layout (1 column on mobile, 2-3 on larger screens)
 - Touch-friendly button sizes
 - Optimized modal sizes for different screen sizes
 
-### ⚡ Performance Optimizations
+### Performance Optimizations
 - Optimistic UI updates for better perceived performance
 - Loading states to provide user feedback
 - Efficient re-rendering with Svelte's reactivity
